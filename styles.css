@@ -17,6 +17,15 @@
   
 }
 
+.lightmode{
+  background-color: white;
+  color: black;
+}
+.darkmode{
+   background-color: black;
+   color: white;
+}
+
 a {
   text-decoration: black;
 }
@@ -162,6 +171,9 @@ ul li a:hover {
 .hire__me:hover {
   background-color: var(--primary-color-dark);
 }
+#but1{
+  background-color: var(--primary-color);
+}
 
 
 .image {
@@ -195,15 +207,18 @@ ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
-  }
 
+  }
   nav #check:checked ~ ul {
     left: 0;
   }
 
   ul li a {
     font-size: 1.25rem;
+    background-color: #9333ea;
   }
+
+
 
   .section__container {
     padding: 10rem 1rem 5rem 1rem;
