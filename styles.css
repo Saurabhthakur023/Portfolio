@@ -17,11 +17,7 @@
   
 }
 
-.lightmode{
-  background-color: white;
-  color: black;
-}
-.darkmode{
+.dark-mode{
    background-color: black;
    color: white;
 }
@@ -234,8 +230,15 @@ ul li a:hover {
     margin: auto;
   }
   
- 
+
   
+}
+.skill{
+  background-color: rgb(255, 116, 116);
+  height: 100px;
+  width: 100px;
+  background-position: 50px;
+  box-shadow: #7caad7;
   
 }
 
